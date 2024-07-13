@@ -4,7 +4,7 @@
 
 解决方法很多，我选择开启Hyper-V并使用基于Hyper-V的安卓模拟器。
 
-开启Hyper-V
+[开启Hyper-V](doc/Hyper-V-Enable.md)
 
 
 
