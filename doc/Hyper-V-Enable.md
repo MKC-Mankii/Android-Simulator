@@ -13,10 +13,13 @@
 上面步骤做完后如果还不行。试试下面步骤先禁用再启用
 
 管理员打开PS或者CMD
-用下面命令关闭
+用下面命令禁用
+
 bcdedit /set hypervisorlaunchtype off
 
 再用下面命令启用
+
 bcdedit /set hypervisorlaunchtype auto
+
 dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All
 
