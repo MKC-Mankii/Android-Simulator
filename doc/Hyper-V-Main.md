@@ -7,7 +7,23 @@
 [开启Hyper-V](doc/Hyper-V-Enable.md)
 
 
-
-Bluestacks模拟器 支持繁中
+### 支持Hyper-V的模拟器
+- Bluestacks
 
 [https://support.bluestacks.com/hc/zh-tw](https://support.bluestacks.com/hc/zh-tw)
+
+网站支持繁中，模拟器有简中
+
+但是竖屏时会自动缩放（缩小），不便于我日常游戏脚本使用，放弃
+
+其他方面暂未研究
+
+- Genymotion
+
+[https://www.genymotion.com/](https://www.genymotion.com/)
+
+不支持简中
+
+root权限需要付费版（订阅付费，非一次性）
+
+试了一下，给4核2G内存，用系统浏览器打开百度会卡死，具体原因未知。
