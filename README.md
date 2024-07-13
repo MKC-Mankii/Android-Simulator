@@ -2,7 +2,7 @@
 
 [hypervisor(HyperV) 安卓模拟器研究](doc/Hyper-V-Main.md)
 
-### 非HyperV安卓模拟器分析（个人体验）
+### 安卓模拟器分析（个人体验）
 
 #### 网易MuMu模拟器12
 - Android 12
@@ -27,5 +27,28 @@
 - Android 9
 - 有一次需要安卓9的测试机，就安装使用了下。没有深入了解
 
+#### 兆懿移动应用运行平台
+- Android 7 9 12
+- 一个程序包含3个安卓版本，本质上是模拟器，体验上是安卓程序运行平台
+- 按键精灵等等就没必要试了
+- 支持Hyper-V
 
-  
+
+
+#### Bluestacks
+
+- [https://support.bluestacks.com/hc/zh-tw](https://support.bluestacks.com/hc/zh-tw)
+- 网站支持繁中，模拟器有简中
+- 但是竖屏时会自动缩放（缩小），不便于我日常游戏脚本使用，放弃
+- 其他方面暂未研究
+- 支持Hyper-V
+
+#### Genymotion
+- [https://www.genymotion.com/](https://www.genymotion.com/)
+- 不支持简中
+- root权限需要付费版（订阅付费，非一次性）
+- 支持Hyper-V
+试了一下，建了个三星的模拟器给4核2G内存，用系统浏览器打开百度会卡死；建个小米4核4G内存，网络设置不能设置代理（点了没反应）；建个Moto4核4G内存，网络设置可以设代理，能上Google了，重启代理失效要再设置，此时卡死，再打开到网络设置页面又卡死。具体原因未知。
+
+安装和设置的时候提示Hyper-V有概率不稳定，我还抱着侥幸心理觉得不会这么巧。
+
